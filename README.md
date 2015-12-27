@@ -1,5 +1,5 @@
 # gotcount
-A column based in-memory database with a url compatible query language and very small response times
+A column based in-memory database with a url compatible query language and very small response times. Primary development aim was a server capable of calculating histograms over single columns accepting any number of filter queries on any attribute (column) of the dataset. The original use case was to allow an interactive analysis of web logs.
 
 # how to use
 
