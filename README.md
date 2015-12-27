@@ -3,7 +3,8 @@ A column based in-memory database with a url compatible query language and very 
 
 # how to use
 
-- Run it with `gotcount-service.jar server config.yml`
+- Configure dummy data source (jdbc based) in the default.yml config file. This data will be loaded into memory, make sure you choose something small enough to fit into your RAM.
+- Run it with `gotcount-service.jar server default.yml`
 - Open `localhost:8080` to access the service. The server will return path options if available
 
 # Query Language
